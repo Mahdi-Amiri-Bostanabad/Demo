@@ -1,0 +1,34 @@
+# Secrets: never commit real env files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build output and caches
+dist/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tool state and logs
+.taste-skill/
+.claude/settings.local.json
+*.log
+.DS_Store
+Thumbs.db
+
+# Scratch files
+tmp_*.py
